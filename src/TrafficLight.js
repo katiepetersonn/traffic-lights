@@ -18,3 +18,39 @@
 //change lights
 
 console.log("Hello world");
+
+// Basic scenario: get one traffic light working
+
+//3 states
+//red [1]
+//yellow [2]
+//green [3]
+
+//Green -> Yellow -> Red
+//If the light is green
+//Green
+// for 135 seconds
+//Yellow
+// for 30 seconds
+//Red
+//got 135 seconds
+//Lights to change every 5 mins
+
+//Red -> Yellow -> Green (REVERSE THE ABOVE)
+//If the light is red
+//Red
+// for 135 seconds
+//Yellow
+// for 30 seconds
+//Green
+//got 135 seconds
+//Lights to change every 5 mins
+
+//LOGIC
+
+//North-south //East-West
+//NS: Red //EW: Red
+//NS: Red  //EW: Yellow
+//NS: Yellow //EW: Red
+//NS: Red //EW: Green
+//NS: Green //EW: Red
