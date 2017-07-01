@@ -54,3 +54,42 @@ console.log("Hello world");
 //NS: Yellow //EW: Red
 //NS: Red //EW: Green
 //NS: Green //EW: Red
+
+// document.getElementsByClassName("red").onclick = changeToRed;
+//
+// var changeToRed = function() {
+//   console.log("Red light was clicked");
+//   // clearlights();
+//   // document.getElementsByClassName("red").style.backgroundColor = "red";
+// };
+
+$(document).ready(function() {
+  var clearLights = function() {
+    document.getElementById("green").style.backgroundColor = "black";
+    document.getElementById("yellow").style.backgroundColor = "black";
+    document.getElementById("red").style.backgroundColor = "black";
+  };
+
+  var changeToRed = function() {
+    clearLights();
+    console.log("Red light was clicked");
+    document.getElementById("red").style.backgroundColor = "red";
+  };
+  setTimeout(changeToRed, 2000);
+
+  var changeToYellow = function() {
+    clearLights();
+    console.log("Yellow light was clicked");
+    document.getElementById("yellow").style.backgroundColor = "yellow";
+  };
+  setTimeout(changeToYellow, 3000);
+
+  var changeToGreen = function() {
+    clearLights();
+    console.log("Green light was clicked");
+    document.getElementById("green").style.backgroundColor = "green";
+  };
+  setTimeout(changeToGreen, 4000);
+
+  var TrafficLightTimer = function() {};
+});

@@ -1,23 +1,21 @@
-.red {
+#red {
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  background-color: red;
+  background-color: black;
   margin-bottom: 20px;
 }
-
-.yellow {
+#yellow {
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  background-color: yellow;
+  background-color: black;
   margin-bottom: 20px;
 }
-
-.green {
+#green {
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  background-color: green;
+  background-color: black;
   margin-bottom: 20px;
 }
