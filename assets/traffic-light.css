@@ -1,21 +1,22 @@
-#red {
+.light {
   border-radius: 50%;
   width: 100px;
   height: 100px;
   background-color: black;
   margin-bottom: 20px;
+  display: inline-block;
+}
+
+#red {
+background-color: red;
 }
 #yellow {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  background-color: black;
-  margin-bottom: 20px;
+background-color: yellow;
 }
 #green {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  background-color: black;
-  margin-bottom: 20px;
+background-color: green;
+}
+
+button {
+  margin-bottom: 10px;
 }
